@@ -16,6 +16,7 @@ def load_data(path, file, verbose=False, sep=',', index=None):
         path: string, path to file containing data
         file: string, name of file containing data that will be merged together
         verbose: boolean, If the caller wanted information about the df to be displayed
+        index: int, Number of column that is the index
     Returns: 
         df, holds data in the given csv files
     """
